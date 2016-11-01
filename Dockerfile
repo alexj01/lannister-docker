@@ -27,6 +27,7 @@ RUN wget -q https://services.gradle.org/distributions/gradle-2.9-bin.zip -O grad
     && npm install -g newman \
     && npm install -g git \
     && npm install -g phantomjs \
+    && npm install -g mysql \
     && tar -xzf cf-cli*.tgz -C /usr/bin/ \
     && cd spring_1_3_0_sample \
     && gradle build \
